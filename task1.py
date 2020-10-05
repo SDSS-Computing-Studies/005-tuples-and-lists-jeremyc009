@@ -28,4 +28,4 @@ animals =["Cat","Fish","Dog","Bear","Turtle"]
 animals.sort()
 print(animals)
 ind=int(input("Enter an index of the list: "))
-print(animals[ind])
+print("The animal at that index is "+animals[ind])
