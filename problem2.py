@@ -26,7 +26,7 @@ word not in list
 
 fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
 print(fruit)
-fru=str(input("Enter a word: "))
+fru=(input("Enter a word: ").strip())
 print(fru)
 value=fru in fruit
 coun=fruit.count(fru)
