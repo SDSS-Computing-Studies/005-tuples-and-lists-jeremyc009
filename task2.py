@@ -26,6 +26,6 @@ Enter a word: virus
 emLi=[]
 count=0
 for i in range(0,5):
-    word=input("Enter a word: ")
+    word=input("Enter a word: ").strip()
     emLi.insert(i,word)
 print(emLi)
